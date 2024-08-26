@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap" layer(bootstrap);
+@import "primeng/resources/themes/lara-light-blue/theme.css" layer(prime);
+@import "primeng/resources/primeng.css" layer(prime);
+@import "primeicons/primeicons.css";
+@layer prime, bootstrap;
